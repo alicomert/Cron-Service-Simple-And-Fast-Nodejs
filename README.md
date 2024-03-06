@@ -36,7 +36,6 @@ npm install
 Here's a simple example to demonstrate how to schedule a task:
 
 ```javascript
-const { fetchDataWithTiming } = require('./path-to-service');
 
 // Define your URLs and scheduling parameters
 const urls = [
