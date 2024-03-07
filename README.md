@@ -16,8 +16,7 @@ Welcome to the GitHub repository for **Cron Service - Node.js Simple And Fast**,
   ```javascript
     const telegramAPI = `https://api.telegram.org/botBOT_TOKEN_API/sendMessage`;
     sendTelegramMessage(YOUR_TELEGRAM_USER_ID, `Link problem: ${url}`);
-  
-```
+  ```
 
 - **Independent Scheduling:** Tasks are managed independently, ensuring that the delay or failure of one task does not impact the execution of others.
 - **Custom Time Windows:** Supports scheduling tasks within custom time windows, allowing tasks to run only during specified hours.
