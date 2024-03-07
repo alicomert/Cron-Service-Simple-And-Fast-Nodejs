@@ -12,7 +12,13 @@ Welcome to the GitHub repository for **Cron Service - Node.js Simple And Fast**,
 - **Lightweight Design:** The service is built to be lightweight, ensuring minimal impact on your application's performance.
 - **Flexible Scheduling:** Offers the flexibility to schedule tasks at various intervals - from seconds to days, allowing for precise control over task execution.
 - **Error Handling:** Includes robust error handling mechanisms, ensuring that your scheduled tasks are reliable and your application remains stable.
-- **Telegram Notifications:** Features the ability to send notifications via Telegram, providing instant alerts on task failures or important events.
+- **Telegram Notifications:** Features the ability to send notifications via Telegram, providing instant alerts on task failures or important events
+  ```javascript
+    const telegramAPI = `https://api.telegram.org/botBOT_TOKEN_API/sendMessage`;
+    sendTelegramMessage(YOUR_TELEGRAM_USER_ID, `Link problem: ${url}`);
+  
+```
+
 - **Independent Scheduling:** Tasks are managed independently, ensuring that the delay or failure of one task does not impact the execution of others.
 - **Custom Time Windows:** Supports scheduling tasks within custom time windows, allowing tasks to run only during specified hours.
 
